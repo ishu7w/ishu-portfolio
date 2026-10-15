@@ -1,5 +1,10 @@
 # Publishing and verification
 
+- Public repository: https://github.com/ishu7w/ishu-portfolio
+- Production site: https://ishu-portfolio-six.vercel.app/
+- Vercel project: `ishu-portfolio` in `ishu7w-4139s-projects`
+- Connected production branch: `main`; pushes deploy automatically.
+
 The public repository uses an all-rights-reserved notice for Ishu's original work, with explicit third-party exclusions. Public GitHub repositories can be cloned and forked; no technical copy prevention is claimed.
 
 Vercel serves the committed `dist/` directory. The Python personalization build runs locally with `npm run build`; commit its generated files before pushing. Vercel intentionally skips rebuilding the captured runtime. Node.js 24 runs `api/search.mjs`, which answers each query independently without sessions, credentials, or a database. Work detail routes rewrite to the application shell; assets and media retain native file handling and range requests.

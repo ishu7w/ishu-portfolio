@@ -13,7 +13,10 @@ export default async function search(req, res) {
   };
   if (req.method !== 'POST') return reply(405, { error: 'Use POST' });
   try {
-    let data = req.body;
+    let data;
+    // Vercel's lazy body getter throws its own error type for malformed JSON.
+    try { data = req.body; }
+    catch { return reply(400, { error: 'Invalid JSON' }); }
     if (data === undefined) {
       let raw = '';
       for await (const chunk of req) {

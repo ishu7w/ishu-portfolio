@@ -2,6 +2,8 @@
 
 A personal portfolio for internships, software projects, open-source work, and collaborators. It preserves the retained WebGL experience's materials, particles, camera movement, scroll transitions and typography, with Ishu's identity and content throughout.
 
+Live: [ishu-portfolio-six.vercel.app](https://ishu-portfolio-six.vercel.app/) · [GitHub repository](https://github.com/ishu7w/ishu-portfolio)
+
 ## Run
 
 Requires Node.js 24 and Python 3 for the content build. No npm dependencies are needed for the portfolio server.
