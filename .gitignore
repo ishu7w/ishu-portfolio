@@ -11,3 +11,6 @@ dist/assets/video/
 docs/*.png
 dist/content/portfolio/*-source.png
 dist/content/portfolio/asset-contact-sheet.jpg
+.vercel
+.env*
+*.sb-*

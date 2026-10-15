@@ -11,3 +11,4 @@ scripts/capture-assets.py
 scripts/generate-portfolio-media.py
 scripts/generate-portfolio-media.swift
 .env*
+*.sb-*
