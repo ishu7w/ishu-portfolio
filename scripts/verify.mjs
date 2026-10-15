@@ -69,6 +69,13 @@ assert.equal((await fetch(base + '/assets/js/app.1780406240914.js', { method: 'H
 assert.equal((await fetch(base + '//assets/images/personal/github.png')).status, 200);
 pass('Home, Work, project history routes, HEAD, and missing-file handling');
 
+const fallback = await (await fetch(base + '/unsupported.html')).text();
+assert.match(fallback, /<title>Ishu Patel/);
+assert.equal((fallback.match(/<article>/g) || []).length, projects.length);
+for (const forbidden of ['googletagmanager.com', 'gtag(', 'Active Theory']) assert.ok(!fallback.includes(forbidden));
+for (const project of projects) assert.ok(fallback.includes(project.caseStudyURL));
+pass('Unsupported-browser fallback contains every personal project and no inherited analytics');
+
 const videoPath = '/content/portfolio/parkwise.mp4';
 const response = await fetch(base + videoPath, { headers: { Range: 'bytes=0-1023' } });
 assert.equal(response.status, 206);

@@ -1,0 +1,125 @@
+{
+  "desktop": {
+    "viewport": [
+      1280,
+      800
+    ],
+    "devicePixelRatio": 2,
+    "beforeCanvas": [
+      2560,
+      1600
+    ],
+    "after": {
+      "route": "/",
+      "worldDpr": 1.3975424859373686,
+      "sceneDpr": 1.3975424859373686,
+      "canvas": [
+        1788,
+        1118
+      ],
+      "frames": {
+        "fps": 59.80265125087212,
+        "p95": 16.799999999995634
+      },
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4175/content/portfolio/showreel.mp4",
+          "preload": "auto",
+          "paused": false,
+          "ready": 4
+        },
+        {
+          "src": "",
+          "preload": "none",
+          "paused": true,
+          "ready": 0
+        }
+      ],
+      "errors": []
+    }
+  },
+  "mobileEmulation": {
+    "viewport": [
+      390,
+      844
+    ],
+    "devicePixelRatio": 3,
+    "before": {
+      "url": "https://ishu-portfolio-six.vercel.app/",
+      "mobile": true,
+      "canvas": [
+        780,
+        1688
+      ],
+      "dpr": 1,
+      "mobileTier": 1,
+      "frames": {
+        "fps": 58.63383172090296,
+        "p95": 16.799999999999272
+      },
+      "errors": [],
+      "videos": [
+        {
+          "src": "https://ishu-portfolio-six.vercel.app/content/portfolio/showreel.mp4",
+          "preload": "auto",
+          "paused": false
+        },
+        {
+          "src": "https://ishu-portfolio-six.vercel.app/content/portfolio/showreel.mp4",
+          "preload": "metadata",
+          "paused": true
+        }
+      ]
+    },
+    "after": {
+      "url": "http://127.0.0.1:4175/",
+      "mobile": true,
+      "canvas": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "sceneDpr": 1,
+      "mobileTier": 1,
+      "frames": {
+        "fps": 60.00200006666888,
+        "p95": 16.700000000000728
+      },
+      "errors": []
+    }
+  },
+  "regressions": {
+    "fastSearch": {
+      "disabled": false,
+      "thinking": false,
+      "answered": true
+    },
+    "keyboardFilter": [
+      "checkstyle",
+      "java-pathfinder",
+      "gson"
+    ],
+    "projectSearch": {
+      "path": "/work/parkwise",
+      "disabled": false
+    },
+    "modal": {
+      "open": true,
+      "src": "http://127.0.0.1:4175/content/portfolio/parkwise.mp4",
+      "ready": 4,
+      "backgroundDraws": 0
+    },
+    "modalClosed": {
+      "open": false,
+      "paused": true,
+      "draws": 44
+    },
+    "timeout": {
+      "disabled": false,
+      "thinking": false,
+      "answered": true
+    },
+    "runtimeExceptions": []
+  },
+  "limits": "Isolated desktop Chrome on Apple M4; Android is emulated, not a physical-device measurement. Short frame samples are diagnostic, not universal performance guarantees."
+}

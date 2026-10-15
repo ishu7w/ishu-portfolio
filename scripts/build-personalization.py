@@ -8,6 +8,7 @@ import sys
 import shutil
 from pathlib import Path
 from branding_geometry import write_personal_geometry
+from runtime_patches import apply_runtime_patches, render_fallback
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT/'dist'
@@ -158,16 +159,19 @@ app=patch(app,'get_more_agency_info','get_portfolio_info',1)
 # The same animated conversation UI uses one stateless request on Vercel.
 assistant_start = app.index('InteractAI.Class((function Assistant(_props)')
 assistant_end = app.index('InteractAI.Class((function GPT(_props)', assistant_start)
-app = app[:assistant_start] + 'InteractAI.Class((function Assistant(_props){Inherit(this,Component);const _this=this;var _project="";AppState.set("InteractAIAssistant/isThinking",!1);AppState.bind("Work/project",(data=>{_project=data?data.perma:""}));this.once=async function(message){await _this.wait((_=>!AppState.get("InteractAIAssistant/isThinking")));AppState.set("InteractAIAssistant/isThinking",!0);try{if(_project)message=`I\'m looking at ${_project}. `+message;const response=await fetch("/api/search",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:message})});if(!response.ok)throw Error("Search unavailable");const result=await response.json();if(result.slug)AppState.set("CMSData/slug",{slug:result.slug,message:result.text},!0);return result.text}catch(error){return "Search is temporarily unavailable. Explore Work or use the links in Contact."}finally{AppState.set("InteractAIAssistant/isThinking",!1)}}})),' + app[assistant_end:]
+app = app[:assistant_start] + 'InteractAI.Class((function Assistant(_props){Inherit(this,Component);const _this=this;var _project="";AppState.set("InteractAIAssistant/isThinking",!1);AppState.bind("Work/project",(data=>{_project=data?data.perma:""}));this.once=async function(message){await _this.wait((_=>!AppState.get("InteractAIAssistant/isThinking")));AppState.set("InteractAIAssistant/isThinking",!0);const controller=new AbortController,timeout=setTimeout(()=>controller.abort(),8000);try{if(_project)message=`I\'m looking at ${_project}. `+message;const response=await fetch("/api/search",{signal:controller.signal,method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:message})});if(!response.ok)throw Error("Search unavailable");const result=await response.json();if(result.slug)AppState.set("CMSData/slug",{slug:result.slug,message:result.text},!0);return result.text}catch(error){return "Search is temporarily unavailable. Explore Work or use the links in Contact."}finally{clearTimeout(timeout);AppState.set("InteractAIAssistant/isThinking",!1)}}})),' + app[assistant_end:]
 
+app=apply_runtime_patches(app,patch)
 app_path.write_text(app)
+(DIST/'unsupported.html').write_text(render_fallback(profile))
 
 page=(DIST/'index.html').read_text()
 page=page.replace('Active Theory · Creative Digital Experiences',html.escape(profile['title'],quote=True))
 page=page.replace('Founded in 2012. We blend story, art & technology as an in-house team of passionate makers. Our industry-leading web toolset consistently delivers award-winning work through quality & performance. ',html.escape(profile['description'],quote=True))
 page=page.replace('content="Active Theory"','content="'+profile['name']+'"')
 page=page.replace('https://activetheory.net',profile.get('siteUrl',profile['links']['github']).rstrip('/'))
-page=page.replace('/content/media/social.jpg','/content/portfolio/social.jpg')
+page=page.replace('/content/media/social.jpg',profile.get('siteUrl','').rstrip('/')+'/content/portfolio/social.jpg')
+page=page.replace('font-style:normal;font-weight:', 'font-display:swap;font-style:normal;font-weight:')
 page=re.sub(r'<link[^>]+(?:favicon-|apple-touch-icon|safari-pinned-tab)[^>]*>', '', page)
 page=page.replace('</head>','<link rel="icon" type="image/svg+xml" href="/content/portfolio/favicon.svg">\n</head>')
 structured={'@context':'https://schema.org','@type':'Person','name':profile['name'],'description':profile['description'],'sameAs':[profile['links'][k] for k in ['github','linkedin','leetcode']]}
