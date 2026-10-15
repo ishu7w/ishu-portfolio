@@ -1,0 +1,47 @@
+{
+  "reference": {
+    "evidence_id": "ev_9a59dbd4f3164025cf24d52c6c2d5d624c6722c61ae900d0661b4703885302ef",
+    "operation": "capture_browser_scenario",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "device_scale_factor": 1
+    },
+    "request_count": 140,
+    "page_errors": [],
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+      "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+      "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+      "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+      "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+      "Storage values are hashed only after declared-secret redaction.",
+      "Some network requests had not completed when capture ended; later activity is unknown.",
+      "Browser host platform and architecture were not observed."
+    ]
+  },
+  "local": {
+    "evidence_id": "ev_d503377d6c6e6eb16983d23891066a8272ece16ac49f36e697ef0f0968f5a833",
+    "operation": "inspect_web_page",
+    "target": {
+      "target_id": "962C2F02A2E79D06F86FC1FFFDE0BEAA",
+      "type": "page",
+      "title": "Active Theory · Creative Digital Experiences",
+      "url": "http://127.0.0.1:4173/",
+      "origin": "http://127.0.0.1:4173",
+      "attached": null
+    },
+    "dom_nodes": 146,
+    "limitations": [
+      "Artifact identity is unavailable for this observation.",
+      "Observation starts when REA attaches; prior network and console activity is unavailable.",
+      "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+      "Source maps are reported only as declarative URLs and are not fetched.",
+      "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+      "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+      "Browser host platform and architecture were not observed."
+    ]
+  },
+  "scope": "These captures establish observed frontend states only. They do not prove global equivalence or reproduce the private server infrastructure."
+}

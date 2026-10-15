@@ -1,0 +1,163 @@
+{
+  "name": "Ishu Patel",
+  "handle": "ishu7w",
+  "title": "Ishu Patel · Software Developer",
+  "description": "Computer Science & Engineering student building practical software with Java, TypeScript and React. Explore my projects, open-source contributions and experiments with applied AI.",
+  "email": "ishu7w@gmail.com",
+  "role": "Computer Science & Engineering student",
+  "focus": "Internships, useful software and open-source collaboration",
+  "links": {
+    "github": "https://github.com/ishu7w",
+    "linkedin": "https://www.linkedin.com/in/ishu-patel-22ab803a9",
+    "leetcode": "https://leetcode.com/u/ishu7w/",
+    "contributions": "https://github.com/ishu7w?tab=overview",
+    "repositories": "https://github.com/ishu7w?tab=repositories"
+  },
+  "homeText": "Ishu Patel\nScroll to explore",
+  "aboutHeading": "Code.\nBuild.\nImprove.",
+  "aboutText": "I'm Ishu, a Computer Science & Engineering student.\n\nI build practical software with Java, TypeScript and React, explore applied AI, and contribute to open-source Java tools.\n\nInterested in internships, useful projects and hackathon collaborations.",
+  "labHeading": "// THE\nBUILD LOG ->",
+  "labText": "Java, data structures, applied AI and experiments. Learning by building, testing and contributing in the open.",
+  "skills": [
+    "Java",
+    "Data structures & algorithms",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Vite",
+    "Node.js",
+    "Express",
+    "Spring Boot",
+    "PostgreSQL",
+    "Supabase",
+    "Git",
+    "GitHub"
+  ],
+  "categories": [
+    {
+      "label": "Full stack",
+      "tag": "full stack"
+    },
+    {
+      "label": "Java",
+      "tag": "java"
+    },
+    {
+      "label": "Applied AI",
+      "tag": "ai"
+    },
+    {
+      "label": "Creative web",
+      "tag": "creative web"
+    },
+    {
+      "label": "Open source",
+      "tag": "open source"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "parkwise",
+      "name": "Parkwise",
+      "kind": "Personal project",
+      "stack": "React / TypeScript / PostgreSQL",
+      "tags": "full stack, typescript, react, postgresql",
+      "description": "A driver and parking-owner platform with shared booking records, exact-bay reservations, arrival passes and owner operations. Built with role-based access and transactional PostgreSQL storage. Payments are recorded by operators; online payment collection is not integrated.",
+      "source": "https://github.com/ishu7w/parkwise",
+      "demo": "https://parkwise-beta.vercel.app/",
+      "color": "88d2b0"
+    },
+    {
+      "slug": "credence",
+      "name": "Credence",
+      "kind": "Personal project",
+      "stack": "React / Express / PostgreSQL",
+      "tags": "full stack, typescript, react, postgresql",
+      "description": "A digital certificate platform with issuance, public verification, HMAC integrity checks, revocation and audit history. React and Express with PostgreSQL hosting and SQLite locally. A single-institution system; HMAC checks are not independent accreditation.",
+      "source": "https://github.com/ishu7w/digital-certification-system",
+      "demo": "https://digital-certification-system-mu.vercel.app/",
+      "color": "b8a1ed"
+    },
+    {
+      "slug": "scholarship-aid",
+      "name": "Scholarship & Aid",
+      "kind": "Java project",
+      "stack": "Java / Next.js / JDBC",
+      "tags": "full stack, java, next.js, jdbc",
+      "description": "A scholarship and financial-aid system with a Java rules engine, eligibility scoring, applications and institution decisions. A Next.js interface connects to the Java backend. The classroom demo uses explicit sample accounts and durable JDBC-backed workflows.",
+      "source": "https://github.com/ishu7w/scholarship-financial-aid-system",
+      "demo": null,
+      "color": "a5c0ff"
+    },
+    {
+      "slug": "smarthealth",
+      "name": "SmartHealth",
+      "kind": "Educational project",
+      "stack": "Java / Spring Boot / React",
+      "tags": "full stack, java, spring boot, react",
+      "description": "A patient and care-team portal developed from a parallel-computing college project. It includes care records, appointment requests, private conversations and an optional Java thread-pool laboratory. Automated risk scores use teaching rules and are not clinically validated.",
+      "source": "https://github.com/ishu7w/SmartHealth",
+      "demo": null,
+      "color": "8edbd9"
+    },
+    {
+      "slug": "cinematic",
+      "name": "CINEMATIC",
+      "kind": "Creative web project",
+      "stack": "Next.js / R3F / GSAP",
+      "tags": "creative web, full stack, typescript, next.js",
+      "description": "A movie, series and anime discovery experience with a persistent WebGL world, editorial layouts and scroll-driven motion. Built with Next.js, React Three Fiber and GSAP. Its local catalog works without API keys; live data sources are optional.",
+      "source": "https://github.com/ishu7w/cinematic-movies",
+      "demo": null,
+      "color": "ecc69c"
+    },
+    {
+      "slug": "scholarai",
+      "name": "ScholarAI",
+      "kind": "Applied AI project",
+      "stack": "Next.js / Supabase / TypeScript",
+      "tags": "ai, full stack, typescript, next.js, supabase",
+      "description": "A scholarship platform with student profiles, eligibility matching, applications and an AI-assisted copilot. Built with Next.js, TypeScript and Supabase. Deterministic matching and supported fallback answers work when no language-model API key is configured.",
+      "source": "https://github.com/ishu7w/ScholarAI",
+      "demo": null,
+      "color": "c6b6f7"
+    },
+    {
+      "slug": "checkstyle",
+      "name": "Checkstyle",
+      "kind": "Merged contribution",
+      "stack": "Java / Regression tests",
+      "tags": "open source, java",
+      "description": "Merged contribution to Checkstyle: fixes file-extension parsing when parent directories contain dots. The change isolates the final filename before checking its extension and adds regression coverage. Merged upstream in PR #21518.",
+      "source": "https://github.com/checkstyle/checkstyle/pull/21518",
+      "demo": null,
+      "color": "97d1bd",
+      "mergedAt": "2026-09-09"
+    },
+    {
+      "slug": "gson",
+      "name": "Gson",
+      "kind": "Merged contribution",
+      "stack": "Java / Collections",
+      "tags": "open source, java",
+      "description": "Merged contribution to Google's Gson library: avoids quadratic removeIf behavior in JsonArray list views. The change improves the collection operation and adds focused regression tests. Merged upstream in PR #3115.",
+      "source": "https://github.com/google/gson/pull/3115",
+      "demo": null,
+      "color": "f0c38f",
+      "mergedAt": "2026-09-16"
+    },
+    {
+      "slug": "java-pathfinder",
+      "name": "Java Pathfinder",
+      "kind": "Merged contribution",
+      "stack": "Java / Model checking",
+      "tags": "open source, java",
+      "description": "My merged contribution fixes Buffer.limit position clamping in Java Pathfinder's model library and adds regression tests. It aligns buffer behavior with the expected position and limit relationship. Contribution to the upstream project. PR #641.",
+      "source": "https://github.com/javapathfinder/jpf-core/pull/641",
+      "demo": null,
+      "color": "8fbfee",
+      "mergedAt": "2026-09-17"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ishu-patel-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ishu Patel's immersive software development portfolio.",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "dev": "node scripts/server.mjs",
+    "build": "python3 scripts/build-personalization.py",
+    "localize": "python3 scripts/build-personalization.py",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

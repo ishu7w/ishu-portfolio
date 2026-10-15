@@ -1,0 +1,128 @@
+[
+  {
+    "view": "work",
+    "url": "http://127.0.0.1:4173/work",
+    "scroll": 4745,
+    "labels": [
+      "Toggle Audio",
+      "Work",
+      "Contact",
+      "Secret Sky",
+      "Chile 20",
+      "Million Piece Mission",
+      "Racer",
+      "Prometheus",
+      "20 Years of Xbox",
+      "Frontier Within",
+      "Welcome to Hogwarts",
+      "E.C.H.O.",
+      "Kandinsky",
+      "Discover your Patronus",
+      "Paper Planes",
+      "Sustainable Horizons",
+      "Harmonic State",
+      "Close Video"
+    ],
+    "videos": [
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      },
+      {
+        "src": "/content/media/secret_sky_2021_recap (1080p)_1.mp4",
+        "ready": 4
+      },
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      }
+    ]
+  },
+  {
+    "view": "detail",
+    "url": "http://127.0.0.1:4173/work/secret-sky",
+    "scroll": 4745,
+    "labels": [
+      "Toggle Audio",
+      "Work",
+      "Contact",
+      "Secret Sky",
+      "Chile 20",
+      "Million Piece Mission",
+      "Racer",
+      "Prometheus",
+      "20 Years of Xbox",
+      "Frontier Within",
+      "Welcome to Hogwarts",
+      "E.C.H.O.",
+      "Kandinsky",
+      "Discover your Patronus",
+      "Paper Planes",
+      "Sustainable Horizons",
+      "Harmonic State",
+      "Open fullscreen video",
+      "Close Video"
+    ],
+    "videos": [
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      },
+      {
+        "src": "/content/media/secret_sky_2021_recap (1080p)_1.mp4",
+        "ready": 4
+      },
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      }
+    ]
+  },
+  {
+    "view": "contact",
+    "url": "http://127.0.0.1:4173/work/secret-sky",
+    "scroll": 4745,
+    "labels": [
+      "Toggle Audio",
+      "Work",
+      "Contact",
+      "Secret Sky",
+      "Chile 20",
+      "Million Piece Mission",
+      "Racer",
+      "Prometheus",
+      "20 Years of Xbox",
+      "Frontier Within",
+      "Welcome to Hogwarts",
+      "E.C.H.O.",
+      "Kandinsky",
+      "Discover your Patronus",
+      "Paper Planes",
+      "Sustainable Horizons",
+      "Harmonic State",
+      "Open fullscreen video",
+      "",
+      "",
+      "",
+      "",
+      "Instagram",
+      "Linked in",
+      "Twitter",
+      "Close Video"
+    ],
+    "videos": [
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      },
+      {
+        "src": "/content/media/secret_sky_2021_recap (1080p)_1.mp4",
+        "ready": 4
+      },
+      {
+        "src": "assets/video/reel.mp4",
+        "ready": 4
+      }
+    ]
+  }
+]

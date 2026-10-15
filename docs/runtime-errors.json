@@ -1,0 +1,60 @@
+{
+  "events": 500,
+  "errors": [
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "22556.1038",
+        "timestamp": 281564.980532,
+        "type": "Media",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      },
+      "session_id": "F03B5F057C03BA878BDD7AC25101A599"
+    },
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "22556.1039",
+        "timestamp": 281564.996824,
+        "type": "Media",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      },
+      "session_id": "F03B5F057C03BA878BDD7AC25101A599"
+    },
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "22556.1040",
+        "timestamp": 281565.013614,
+        "type": "Media",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      },
+      "session_id": "F03B5F057C03BA878BDD7AC25101A599"
+    },
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "22556.1041",
+        "timestamp": 281565.030206,
+        "type": "Media",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      },
+      "session_id": "F03B5F057C03BA878BDD7AC25101A599"
+    },
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "22556.1042",
+        "timestamp": 281565.080489,
+        "type": "Media",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      },
+      "session_id": "F03B5F057C03BA878BDD7AC25101A599"
+    }
+  ]
+}

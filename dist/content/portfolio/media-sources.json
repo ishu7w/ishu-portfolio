@@ -1,0 +1,84 @@
+{
+  "created": "2026-10-15",
+  "identity": "Ishu Patel / ishu7w",
+  "media": [
+    {
+      "slug": "parkwise",
+      "title": "Parkwise",
+      "type": "actual screenshot on editorial background",
+      "source": "https://parkwise-beta.vercel.app/"
+    },
+    {
+      "slug": "credence",
+      "title": "Credence",
+      "type": "actual screenshot on editorial background",
+      "source": "https://digital-certification-system-mu.vercel.app/"
+    },
+    {
+      "slug": "scholarship-aid",
+      "title": "Scholarship & Aid",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "smarthealth",
+      "title": "SmartHealth",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "cinematic",
+      "title": "CINEMATIC",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "scholarai",
+      "title": "ScholarAI",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "checkstyle",
+      "title": "Checkstyle",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "gson",
+      "title": "Gson",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    },
+    {
+      "slug": "java-pathfinder",
+      "title": "Java Pathfinder",
+      "type": "editorial title art",
+      "source": "verified public repository README / merged pull request"
+    }
+  ],
+  "videoMethod": "Slow animated crop of the corresponding factual screenshot/title artwork; silent H.264 MP4 loops, not recorded application demos.",
+  "limitations": [
+    "The scholarship-financial-aid-system.vercel.app deployment identifies itself as ScholarAI and remained behind its loading overlay during capture; Scholarship & Aid uses title art.",
+    "Only Parkwise and Credence are actual public application screenshots. Other project/contribution images are labelled editorial title art.",
+    "Videos are silent pan/zoom artwork loops, not recorded application demonstrations."
+  ],
+  "verification": {
+    "videoCodec": "H.264 High Profile",
+    "chroma": "4:2:0 (SPS chroma_format_idc=1)",
+    "resolution": "1280x720",
+    "fps": 24,
+    "audio": false,
+    "durationSeconds": {
+      "projectLoops": 4,
+      "showreel": 21
+    },
+    "browser": "All ten MP4s reached Chrome loadeddata, videoWidth=1280/videoHeight=720, readyState=4."
+  },
+  "icons": {
+    "github": "https://cdn.simpleicons.org/github/ffffff",
+    "linkedin": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
+    "leetcode": "https://cdn.simpleicons.org/leetcode/ffffff",
+    "format": "64x64 transparent PNG, white paths; source SVG included"
+  }
+}

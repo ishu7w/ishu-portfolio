@@ -1,0 +1,191 @@
+[
+  {
+    "id": "ishu-parkwise",
+    "name": "Parkwise",
+    "slug": "parkwise",
+    "description": "A driver and parking-owner platform with shared booking records, exact-bay reservations, arrival passes and owner operations. Built with role-based access and transactional PostgreSQL storage. Payments are recorded by operators; online payment collection is not integrated.",
+    "clientName": "React / TypeScript / PostgreSQL",
+    "period": "Personal project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/parkwise-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/parkwise.mp4",
+      "thumbnail": "assets/images/personal/parkwise.jpg"
+    },
+    "uiColor": "88d2b0",
+    "tags": "full stack, typescript, react, postgresql",
+    "priority": 1,
+    "caseStudyURL": "https://github.com/ishu7w/parkwise",
+    "projectURL": "https://parkwise-beta.vercel.app/"
+  },
+  {
+    "id": "ishu-credence",
+    "name": "Credence",
+    "slug": "credence",
+    "description": "A digital certificate platform with issuance, public verification, HMAC integrity checks, revocation and audit history. React and Express with PostgreSQL hosting and SQLite locally. A single-institution system; HMAC checks are not independent accreditation.",
+    "clientName": "React / Express / PostgreSQL",
+    "period": "Personal project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/credence-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/credence.mp4",
+      "thumbnail": "assets/images/personal/credence.jpg"
+    },
+    "uiColor": "b8a1ed",
+    "tags": "full stack, typescript, react, postgresql",
+    "priority": 2,
+    "caseStudyURL": "https://github.com/ishu7w/digital-certification-system",
+    "projectURL": "https://digital-certification-system-mu.vercel.app/"
+  },
+  {
+    "id": "ishu-scholarship-aid",
+    "name": "Scholarship & Aid",
+    "slug": "scholarship-aid",
+    "description": "A scholarship and financial-aid system with a Java rules engine, eligibility scoring, applications and institution decisions. A Next.js interface connects to the Java backend. The classroom demo uses explicit sample accounts and durable JDBC-backed workflows.",
+    "clientName": "Java / Next.js / JDBC",
+    "period": "Java project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/scholarship-aid-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/scholarship-aid.mp4",
+      "thumbnail": "assets/images/personal/scholarship-aid.jpg"
+    },
+    "uiColor": "a5c0ff",
+    "tags": "full stack, java, next.js, jdbc",
+    "priority": 3,
+    "caseStudyURL": "https://github.com/ishu7w/scholarship-financial-aid-system",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-smarthealth",
+    "name": "SmartHealth",
+    "slug": "smarthealth",
+    "description": "A patient and care-team portal developed from a parallel-computing college project. It includes care records, appointment requests, private conversations and an optional Java thread-pool laboratory. Automated risk scores use teaching rules and are not clinically validated.",
+    "clientName": "Java / Spring Boot / React",
+    "period": "Educational project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/smarthealth-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/smarthealth.mp4",
+      "thumbnail": "assets/images/personal/smarthealth.jpg"
+    },
+    "uiColor": "8edbd9",
+    "tags": "full stack, java, spring boot, react",
+    "priority": 4,
+    "caseStudyURL": "https://github.com/ishu7w/SmartHealth",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-cinematic",
+    "name": "CINEMATIC",
+    "slug": "cinematic",
+    "description": "A movie, series and anime discovery experience with a persistent WebGL world, editorial layouts and scroll-driven motion. Built with Next.js, React Three Fiber and GSAP. Its local catalog works without API keys; live data sources are optional.",
+    "clientName": "Next.js / R3F / GSAP",
+    "period": "Creative web project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/cinematic-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/cinematic.mp4",
+      "thumbnail": "assets/images/personal/cinematic.jpg"
+    },
+    "uiColor": "ecc69c",
+    "tags": "creative web, full stack, typescript, next.js",
+    "priority": 5,
+    "caseStudyURL": "https://github.com/ishu7w/cinematic-movies",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-scholarai",
+    "name": "ScholarAI",
+    "slug": "scholarai",
+    "description": "A scholarship platform with student profiles, eligibility matching, applications and an AI-assisted copilot. Built with Next.js, TypeScript and Supabase. Deterministic matching and supported fallback answers work when no language-model API key is configured.",
+    "clientName": "Next.js / Supabase / TypeScript",
+    "period": "Applied AI project",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/scholarai-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/scholarai.mp4",
+      "thumbnail": "assets/images/personal/scholarai.jpg"
+    },
+    "uiColor": "c6b6f7",
+    "tags": "ai, full stack, typescript, next.js, supabase",
+    "priority": 6,
+    "caseStudyURL": "https://github.com/ishu7w/ScholarAI",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-checkstyle",
+    "name": "Checkstyle",
+    "slug": "checkstyle",
+    "description": "Merged contribution to Checkstyle: fixes file-extension parsing when parent directories contain dots. The change isolates the final filename before checking its extension and adds regression coverage. Merged upstream in PR #21518.",
+    "clientName": "Java / Regression tests",
+    "period": "Merged contribution",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/checkstyle-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/checkstyle.mp4",
+      "thumbnail": "assets/images/personal/checkstyle.jpg"
+    },
+    "uiColor": "97d1bd",
+    "tags": "open source, java",
+    "priority": 7,
+    "caseStudyURL": "https://github.com/checkstyle/checkstyle/pull/21518",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-gson",
+    "name": "Gson",
+    "slug": "gson",
+    "description": "Merged contribution to Google's Gson library: avoids quadratic removeIf behavior in JsonArray list views. The change improves the collection operation and adds focused regression tests. Merged upstream in PR #3115.",
+    "clientName": "Java / Collections",
+    "period": "Merged contribution",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/gson-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/gson.mp4",
+      "thumbnail": "assets/images/personal/gson.jpg"
+    },
+    "uiColor": "f0c38f",
+    "tags": "open source, java",
+    "priority": 8,
+    "caseStudyURL": "https://github.com/google/gson/pull/3115",
+    "projectURL": null
+  },
+  {
+    "id": "ishu-java-pathfinder",
+    "name": "Java Pathfinder",
+    "slug": "java-pathfinder",
+    "description": "My merged contribution fixes Buffer.limit position clamping in Java Pathfinder's model library and adds regression tests. It aligns buffer behavior with the expected position and limit relationship. Contribution to the upstream project. PR #641.",
+    "clientName": "Java / Model checking",
+    "period": "Merged contribution",
+    "completionDate": "2026-01-01T00:00:00.000Z",
+    "projectLogo": {
+      "url": "assets/images/personal/java-pathfinder-logo.png"
+    },
+    "video": {
+      "url": "/content/portfolio/java-pathfinder.mp4",
+      "thumbnail": "assets/images/personal/java-pathfinder.jpg"
+    },
+    "uiColor": "8fbfee",
+    "tags": "open source, java",
+    "priority": 9,
+    "caseStudyURL": "https://github.com/javapathfinder/jpf-core/pull/641",
+    "projectURL": null
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "views": [
+    {
+      "view": "work",
+      "title": "Ishu Patel \u00b7 Software Developer",
+      "url": "http://127.0.0.1:4173/work",
+      "scroll": 4745,
+      "labels": [
+        "Toggle Audio",
+        "Projects",
+        "Contact",
+        "Checkstyle",
+        "Scholarship & Aid",
+        "Gson",
+        "SmartHealth",
+        "Parkwise",
+        "Credence",
+        "CINEMATIC",
+        "ScholarAI",
+        "Java Pathfinder",
+        "Close Video"
+      ],
+      "messages": [
+        {
+          "text": "-> Open source",
+          "href": null
+        },
+        {
+          "text": "-> Creative web",
+          "href": null
+        },
+        {
+          "text": "-> Applied AI",
+          "href": null
+        },
+        {
+          "text": "-> Java",
+          "href": null
+        },
+        {
+          "text": "-> Full stack",
+          "href": null
+        },
+        {
+          "text": "Explore my work",
+          "href": null
+        }
+      ],
+      "videos": [
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/checkstyle.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        }
+      ]
+    },
+    {
+      "view": "detail",
+      "title": "Checkstyle \u00b7 Ishu Patel",
+      "url": "http://127.0.0.1:4173/work/checkstyle",
+      "scroll": 4745,
+      "labels": [
+        "Toggle Audio",
+        "Projects",
+        "Contact",
+        "Checkstyle",
+        "Scholarship & Aid",
+        "Gson",
+        "SmartHealth",
+        "Parkwise",
+        "Credence",
+        "CINEMATIC",
+        "ScholarAI",
+        "Java Pathfinder",
+        "Open fullscreen video",
+        "Close Video"
+      ],
+      "messages": [
+        {
+          "text": "<- Close",
+          "href": null
+        },
+        {
+          "text": "View source on GitHub",
+          "href": "https://github.com/checkstyle/checkstyle/pull/21518"
+        },
+        {
+          "text": "My merged contribution fixes file-extension parsing when parent directories contain dots. The change isolates the final filename before checking its extension and adds regression coverage. Contribution to Checkstyle, not a project I created. PR #21518.",
+          "href": null
+        },
+        {
+          "text": "Merged contribution / Java / Regression tests / open source",
+          "href": null
+        },
+        {
+          "text": "Checkstyle",
+          "href": null
+        }
+      ],
+      "videos": [
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/checkstyle.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        }
+      ]
+    },
+    {
+      "view": "contact",
+      "title": "Checkstyle \u00b7 Ishu Patel",
+      "url": "http://127.0.0.1:4173/work/checkstyle",
+      "scroll": 4745,
+      "labels": [
+        "Toggle Audio",
+        "Projects",
+        "Contact",
+        "Checkstyle",
+        "Scholarship & Aid",
+        "Gson",
+        "SmartHealth",
+        "Parkwise",
+        "Credence",
+        "CINEMATIC",
+        "ScholarAI",
+        "Java Pathfinder",
+        "Open fullscreen video",
+        "",
+        "",
+        "",
+        "",
+        "GitHub",
+        "LinkedIn",
+        "LeetCode",
+        "Close Video"
+      ],
+      "messages": [
+        {
+          "text": "<- Close",
+          "href": null
+        },
+        {
+          "text": "View source on GitHub",
+          "href": "https://github.com/checkstyle/checkstyle/pull/21518"
+        },
+        {
+          "text": "My merged contribution fixes file-extension parsing when parent directories contain dots. The change isolates the final filename before checking its extension and adds regression coverage. Contribution to Checkstyle, not a project I created. PR #21518.",
+          "href": null
+        },
+        {
+          "text": "Merged contribution / Java / Regression tests / open source",
+          "href": null
+        },
+        {
+          "text": "Checkstyle",
+          "href": null
+        }
+      ],
+      "videos": [
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/checkstyle.mp4",
+          "ready": 4
+        },
+        {
+          "src": "/content/portfolio/showreel.mp4",
+          "ready": 4
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

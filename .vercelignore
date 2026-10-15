@@ -1,0 +1,13 @@
+.git/
+.vercel/
+node_modules/
+docs/
+reference/
+dist/content/media/
+dist/assets/video/
+dist/content/portfolio/*-source.png
+dist/content/portfolio/asset-contact-sheet.jpg
+scripts/capture-assets.py
+scripts/generate-portfolio-media.py
+scripts/generate-portfolio-media.swift
+.env*

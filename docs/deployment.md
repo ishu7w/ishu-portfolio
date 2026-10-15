@@ -1,0 +1,9 @@
+# Publishing and verification
+
+The public repository uses an all-rights-reserved notice for Ishu's original work, with explicit third-party exclusions. Public GitHub repositories can be cloned and forked; no technical copy prevention is claimed.
+
+Vercel serves the committed `dist/` directory. The Python personalization build runs locally with `npm run build`; commit its generated files before pushing. Vercel intentionally skips rebuilding the captured runtime. Node.js 24 runs `api/search.mjs`, which answers each query independently without sessions, credentials, or a database. Work detail routes rewrite to the application shell; assets and media retain native file handling and range requests.
+
+Unused original agency project videos, the original agency showreel, local screenshots, credentials, and local Vercel configuration are excluded from publication. Runtime geometry and textures are retained for visual fidelity. Git-based deployment avoids the Vercel Hobby CLI's 100 MB source-upload limit.
+
+Local verification: `PORT=4174 npm run verify`, with the local server running on that port. Production verification: `BASE_URL=https://YOUR-DOMAIN npm run verify`. Checks cover retained asset integrity, nine personal project/contribution cards, preserved scene/shader values, routes, video byte ranges, factual stateless search, and invalid API requests.

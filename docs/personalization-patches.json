@@ -1,0 +1,275 @@
+{
+  "profile": "Ishu Patel",
+  "bundle_replacements": [
+    {
+      "old": "Active Theory · Creative Digital Experiences",
+      "new": "Ishu Patel · Software Developer",
+      "count": 2
+    },
+    {
+      "old": " · Active Theory",
+      "new": " · Ishu Patel",
+      "count": 1
+    },
+    {
+      "old": "HELLO@ACTIVETHEORY.NET",
+      "new": "ISHU7W@GMAIL.COM",
+      "count": 2
+    },
+    {
+      "old": "Email us at hello@activetheory.net",
+      "new": "Email Ishu Patel at ishu7w@gmail.com",
+      "count": 1
+    },
+    {
+      "old": "mailto:hello@activetheory.net",
+      "new": "mailto:ishu7w@gmail.com",
+      "count": 1
+    },
+    {
+      "old": "https://mailchi.mp/activetheory/newsletter",
+      "new": "https://github.com/ishu7w?tab=repositories",
+      "count": 1
+    },
+    {
+      "old": "https://activetheory.notion.site/privacy",
+      "new": "https://github.com/ishu7w",
+      "count": 3
+    },
+    {
+      "old": "https://jobs.lever.co/activetheory",
+      "new": "https://github.com/ishu7w?tab=overview",
+      "count": 1
+    },
+    {
+      "old": "https://www.instagram.com/activetheory",
+      "new": "https://github.com/ishu7w",
+      "count": 1
+    },
+    {
+      "old": "https://www.linkedin.com/company/active-theory/",
+      "new": "https://www.linkedin.com/in/ishu-patel-22ab803a9",
+      "count": 1
+    },
+    {
+      "old": "https://twitter.com/active_theory",
+      "new": "https://leetcode.com/u/ishu7w/",
+      "count": 1
+    },
+    {
+      "old": "https://atlab.io",
+      "new": "https://github.com/ishu7w?tab=repositories",
+      "count": 1
+    },
+    {
+      "old": "assets/images/ui/ig.png",
+      "new": "assets/images/personal/github.png",
+      "count": 1
+    },
+    {
+      "old": "assets/images/ui/in.png",
+      "new": "assets/images/personal/linkedin.png",
+      "count": 1
+    },
+    {
+      "old": "assets/images/ui/tw.png",
+      "new": "assets/images/personal/leetcode.png",
+      "count": 1
+    },
+    {
+      "old": "assets/video/reel.mp4",
+      "new": "/content/portfolio/showreel.mp4",
+      "count": 2
+    },
+    {
+      "old": "assets/video/reel-frame.jpg",
+      "new": "/content/portfolio/showreel.jpg",
+      "count": 1
+    },
+    {
+      "old": "assets/images/lab.gif",
+      "new": "assets/images/personal/showreel.jpg",
+      "count": 1
+    },
+    {
+      "old": "Newsletter Signup",
+      "new": "All repositories",
+      "count": 3
+    },
+    {
+      "old": "Privacy Notice",
+      "new": "GitHub profile",
+      "count": 4
+    },
+    {
+      "old": "Careers",
+      "new": "Contributions",
+      "count": 3
+    },
+    {
+      "old": "CONTACT US",
+      "new": "LET'S BUILD",
+      "count": 2
+    },
+    {
+      "old": "[ MOBILE SYNC ]",
+      "new": "[ GITHUB PROFILE ]",
+      "count": 1
+    },
+    {
+      "old": "Ask me anything...",
+      "new": "Ask about my work...",
+      "count": 1
+    },
+    {
+      "old": "What are you looking for?",
+      "new": "Explore my work",
+      "count": 2
+    },
+    {
+      "old": "Im trained on 112 projects",
+      "new": "9 projects & contributions",
+      "count": 1
+    },
+    {
+      "old": "Medium Case Study",
+      "new": "View source on GitHub",
+      "count": 1
+    },
+    {
+      "old": "Project Link",
+      "new": "Open live project",
+      "count": 1
+    },
+    {
+      "old": "Our site uses essential cookies and, with your consent, analytics cookies. Details in ",
+      "new": "This portfolio stores viewing preferences in your browser. No analytics cookies. Explore my work on ",
+      "count": 1
+    },
+    {
+      "old": "Privacy Policy.",
+      "new": "GitHub profile.",
+      "count": 2
+    },
+    {
+      "old": "Accept Cookies",
+      "new": "Keep preferences",
+      "count": 2
+    },
+    {
+      "old": "Reject Cookies",
+      "new": "Dismiss",
+      "count": 2
+    },
+    {
+      "old": "\"LAX\"",
+      "new": "\"JAVA\"",
+      "count": 2
+    },
+    {
+      "old": "\"NYC\"",
+      "new": "\"WEB\"",
+      "count": 1
+    },
+    {
+      "old": "\"SYD\"",
+      "new": "\"WEB\"",
+      "count": 1
+    },
+    {
+      "old": "\"AMS\"",
+      "new": "\"AI\"",
+      "count": 2
+    },
+    {
+      "old": "\"Instagram\"",
+      "new": "\"GitHub\"",
+      "count": 1
+    },
+    {
+      "old": "\"Linked in\"",
+      "new": "\"LinkedIn\"",
+      "count": 1
+    },
+    {
+      "old": "\"Twitter\"",
+      "new": "\"LeetCode\"",
+      "count": 1
+    },
+    {
+      "old": "\"Los Angeles\"",
+      "new": "\"Java\"",
+      "count": 1
+    },
+    {
+      "old": "\"New York City\"",
+      "new": "\"Web development\"",
+      "count": 1
+    },
+    {
+      "old": "\"Amsterdam\"",
+      "new": "\"Applied AI\"",
+      "count": 1
+    },
+    {
+      "old": "\"Contact Us\"",
+      "new": "\"Contact Ishu Patel\"",
+      "count": 1
+    },
+    {
+      "old": "_this.email.interact(hover,(_=>window.open(\"mailto:ishu7w@gmail.com\")),\"#\")",
+      "new": "_this.email.interact(hover,(_=>window.open(\"mailto:ishu7w@gmail.com\")),\"#\",\"Email Ishu Patel\")",
+      "count": 1
+    },
+    {
+      "old": "_this.subscribe.interact(hover,(_=>window.open(\"https://github.com/ishu7w?tab=repositories\",\"_blank\")),\"#\")",
+      "new": "_this.subscribe.interact(hover,(_=>window.open(\"https://github.com/ishu7w?tab=repositories\",\"_blank\")),\"#\",\"All repositories\")",
+      "count": 1
+    },
+    {
+      "old": "_this.privacy.interact(hover,(_=>window.open(\"https://github.com/ishu7w\",\"_blank\")),\"#\")",
+      "new": "_this.privacy.interact(hover,(_=>window.open(\"https://github.com/ishu7w\",\"_blank\")),\"#\",\"GitHub profile\")",
+      "count": 1
+    },
+    {
+      "old": "_this.careers.interact(hover,(_=>window.open(\"https://github.com/ishu7w?tab=overview\",\"_blank\")),\"#\")",
+      "new": "_this.careers.interact(hover,(_=>window.open(\"https://github.com/ishu7w?tab=overview\",\"_blank\")),\"#\",\"Contribution history\")",
+      "count": 1
+    },
+    {
+      "old": "_this.onFullscreenClick=_=>{_this.modal.css({display:\"flex\",zIndex:\"9999\"}),_this.video.play()}",
+      "new": "_this.onFullscreenClick=_=>{_this.video.src=Assets.getPath(_this.get(\"Work/project\",!0)?.videoURL||\"/content/portfolio/showreel.mp4\"),_this.modal.css({display:\"flex\",zIndex:\"9999\"}),_this.video.play()}",
+      "count": 1
+    },
+    {
+      "old": "_this.addFilter(\"-> websites\",\"Website\",!0,100),_this.addFilter(\"-> installations\",\"Installation\",!0,200),_this.addFilter(\"-> XR / VR / AI\",\"XR\",!0,300),_this.addFilter(\"-> multiplayer\",\"Multiplayer\",!0,400),_this.addFilter(\"-> games\",\"Game\",!0,500)",
+      "new": "_this.addFilter(\"-> Full stack\",\"full stack\",!0,100),_this.addFilter(\"-> Java\",\"java\",!0,200),_this.addFilter(\"-> Applied AI\",\"ai\",!0,300),_this.addFilter(\"-> Creative web\",\"creative web\",!0,400),_this.addFilter(\"-> Open source\",\"open source\",!0,500)",
+      "count": 1
+    },
+    {
+      "old": "${new Date(data.completionDate).getFullYear()}\\n${data.clientName}\\n${data.tags.toLowerCase()}",
+      "new": "${data.period||\"Personal project\"}\\n${data.clientName}\\n${data.tags.toLowerCase()}",
+      "count": 1
+    },
+    {
+      "old": "let url=location.href;url=url.split(\"#\")[0],url+=url.includes(\"?\")?\"&\":\"?\",url+=`roomqr=${encodeURIComponent(_params.key)}`;const items=await _this.get(\"WorkItems/items\"),ids=[];items.toJSON().forEach((item=>ids.push(item.index))),url+=`&workids=${encodeURIComponent(ids.join(\",\"))}`,console.log(\"url \",url);",
+      "new": "let url=\"https://github.com/ishu7w\";",
+      "count": 1
+    },
+    {
+      "old": "get_more_agency_info",
+      "new": "get_portfolio_info",
+      "count": 1
+    }
+  ],
+  "scene_content_keys": [
+    "INPUT_Element_4_Home_text3d_text",
+    "INPUT_Element_3_About_text3d_text",
+    "INPUT_Element_4_About_text3d_text",
+    "INPUT_Element_15_CleanRoom_text3d_text",
+    "INPUT_Element_20_CleanRoom_text3d_text",
+    "INPUT_Element_5_WorkDetailContent_text3d_text",
+    "INPUT_Element_8_WorkDetailContent_text3d_text"
+  ],
+  "preserved": "All shaders, camera paths, scene transforms and animation values; only content and identity asset references change."
+}

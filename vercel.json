@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/search.mjs": {
+      "maxDuration": 10,
+      "includeFiles": "{content/portfolio.json,dist/content/cms/projects-dev.json}"
+    }
+  },
+  "rewrites": [
+    { "source": "/work/:path*", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/lab", "destination": "/index.html" },
+    { "source": "/contact", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/assets/shaders/:path*", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] },
+    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }] }
+  ]
+}

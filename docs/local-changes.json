@@ -1,0 +1,20 @@
+{
+  "profile": "Ishu Patel",
+  "version": "1780406240914",
+  "changes": [
+    "Personal biography, project/contribution CMS, metadata and contact destinations",
+    "IP identity meshes and logo textures",
+    "Personal project previews, motion presentations and profile QR",
+    "Local factual portfolio search",
+    "Analytics removed; local India region fixture"
+  ],
+  "preserved": [
+    "Shader collection",
+    "Camera paths",
+    "Scene transforms",
+    "Animation parameters",
+    "Typography",
+    "Particles and transitions"
+  ],
+  "content_source": "content/portfolio.json"
+}

@@ -1,0 +1,13 @@
+node_modules/
+*.download
+.DS_Store
+__pycache__/
+docs/qa-*.png
+.vercel/
+.env
+.env.*
+dist/content/media/
+dist/assets/video/
+docs/*.png
+dist/content/portfolio/*-source.png
+dist/content/portfolio/asset-contact-sheet.jpg
